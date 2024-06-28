@@ -11,14 +11,15 @@ export default function Search() {
 
   function handleSearch() {
     setClicked((clicked) => clicked + 1);
-    console.log(clicked);
+    // console.log(clicked);
   }
 
+  //api fetching.
   useEffect(() => {
     async function getGitUsers() {
       const res = await fetch(`${URL}`);
       const data = await res.json();
-      console.log(data);
+      // console.log(data);
       setUser(data);
       setIsLoading(false);
     }

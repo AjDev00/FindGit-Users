@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(5, 5, 29);
+  color: white;
+  margin: 0;
+  transition: 0.5s ease-in-out;
+  /* text-align: center; */
+}
+
+.container {
+  transition: 0.5s ease-in;
+  background-color: white;
+  color: rgb(5, 5, 29);
+}
+
+.nocontainer {
+  background-color: rgb(5, 5, 29);
+  color: white;
+  transition: 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin-top: -15px;
+  }
+}

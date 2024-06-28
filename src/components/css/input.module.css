@@ -1,0 +1,42 @@
+.input {
+  border: 1px solid rgb(2, 2, 82, 0.1);
+  background-color: rgb(2, 2, 82, 1);
+  padding: 17px;
+  border-radius: 8px;
+  outline: none;
+  width: 64%;
+  margin-left: 12.4em;
+  color: white;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .input {
+    margin-left: 0.4em;
+    width: 85%;
+  }
+}
+
+.searchButton {
+  border: none;
+  padding: 10px 12px;
+  color: white;
+  background-color: rgb(32, 32, 243);
+  border-radius: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-left: -5.2em;
+  cursor: pointer;
+}
+
+.searchButton:hover {
+  opacity: 0.8;
+  transition: 0.1s ease-in;
+}

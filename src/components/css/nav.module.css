@@ -1,0 +1,39 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.light {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  /* color: white; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  margin-right: 21em;
+  margin-top: 30px;
+}
+
+.header {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: larger;
+  margin-left: 10em;
+}
+
+@media (max-width: 768px) {
+  .navBar {
+    margin-top: 0px;
+    margin: 10px;
+    font-size: 17px;
+  }
+
+  .light {
+    margin-right: 0em;
+  }
+
+  .header {
+    margin-left: 0em;
+  }
+}

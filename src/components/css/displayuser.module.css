@@ -1,0 +1,169 @@
+.first {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 30px;
+}
+
+.userContainer {
+  margin-top: 30px;
+  border: 1px solid rgb(2, 2, 82, 1);
+  width: 66%;
+  margin-left: 12em;
+  border-radius: 8px;
+  background-color: rgb(2, 2, 82, 1);
+}
+
+.userDetails {
+  margin-top: -1.3em;
+}
+
+.profilePic {
+  width: 10%;
+  height: 7%;
+  border-radius: 45px;
+  margin-right: 2em;
+}
+
+.username {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 25px;
+}
+
+.userProps {
+  margin-bottom: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(32, 32, 243);
+}
+
+.userProps2 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: white;
+}
+
+.created {
+  margin-left: 29em;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  border: 1px solid rgb(5, 5, 29);
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  background-color: rgb(5, 5, 29);
+  width: 70%;
+  margin-left: 145px;
+  border-radius: 8px;
+  padding: 25px;
+  height: 25px;
+}
+
+.repos {
+  margin-top: -1.3em;
+}
+
+.rep {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 37px;
+}
+
+.location {
+  margin-left: 115px;
+}
+
+.blog {
+  margin-right: 60px;
+}
+
+@media (max-width: 768px) {
+  .userContainer {
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .username {
+    margin-left: -0.7em;
+  }
+
+  .first {
+    margin: 0 auto;
+  }
+
+  .second {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+
+  .userDetails {
+    display: grid;
+  }
+
+  .profilePic {
+    width: 20%;
+    height: 17%;
+    margin-left: 15px;
+  }
+
+  .contact {
+    margin: 0 auto;
+    display: grid;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-weight: bolder;
+  }
+
+  .userProps {
+    margin: 0 auto;
+    margin-top: -1em;
+    margin-left: -1em;
+  }
+
+  .userProps2 {
+    margin-bottom: 40px;
+    float: left;
+    font-size: 20px;
+    letter-spacing: 0px;
+    margin-left: -5em;
+    margin-top: 50px;
+  }
+
+  .created {
+    margin: 0 auto;
+  }
+
+  .location {
+    margin-left: 0px;
+  }
+
+  b {
+    font-weight: bolder;
+    margin-left: 15px;
+  }
+}
